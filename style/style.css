@@ -93,6 +93,7 @@ li {
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
+  width: auto;
   margin: 0 ;
   font-weight: 600;
 }
