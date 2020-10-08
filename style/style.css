@@ -438,10 +438,9 @@ ul {
     font-size: 3em;
   }
 
-  .food-image {
-    padding: 0;
+  .about-image {
+    width: 240px;
   }
-
 
   .food-grid {
     grid-template-columns: 210px 210px;
