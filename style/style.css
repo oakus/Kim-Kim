@@ -439,7 +439,7 @@ ul {
   }
 
   .about-image {
-    width: 360px;
+    width: auto;
   }
 
   .food-grid {
