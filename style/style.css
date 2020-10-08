@@ -416,10 +416,15 @@ ul {
     padding: 2em 2em;
   }
 
+
   .about-content {
     max-width: 100%;
     margin: 0 auto;
     padding: 0
+  }
+
+  .food-image {
+    width: 128px;
   }
 
   #menu {
@@ -434,14 +439,7 @@ ul {
     font-size: 3em;
   }
 
-  .food-image {
-    padding: 0;
-  }
-
-  .food-divider {
-    width: 100%;
-    padding: 0 0;
-  }
+  
 
   .food-grid {
     grid-template-columns: 210px 210px;
