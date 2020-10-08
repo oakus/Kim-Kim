@@ -157,7 +157,7 @@ li {
 
 .food-image {
   max-width: 100%;
-  min-width: 300px;
+  height: auto;
   padding-top: 7em;
   padding-left: 30px;
 }
@@ -451,7 +451,8 @@ ul {
   }
 
   .google-map {
-    width: 90%;
+    max-width: 100%;
+    height: auto;
     margin: 0 0;
     padding: 0;
   }
