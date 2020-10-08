@@ -93,7 +93,7 @@ li {
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
-  width: auto;
+  width: 100vw;
   margin: 0 ;
   font-weight: 600;
 }
@@ -432,7 +432,7 @@ ul {
   
 
   #menu {
-    font-size: 0.9em;
+    font-size: 1em;
   }
 
   .menu-image {
