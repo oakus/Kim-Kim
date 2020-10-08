@@ -305,7 +305,7 @@ li {
 
 .menu-image {
   max-width: 128px;
-  width: auto;
+  height: auto;
   object-fit: cover;
 }
 
