@@ -422,13 +422,17 @@ ul {
 
 
   .about-content {
-    max-width: 100%;
     margin: 0 auto;
     padding: 0
   }
+  
+  .story {
+    width: auto;
+  }
+  
 
   #menu {
-    font-size: 0.8em;
+    font-size: 0.9em;
   }
 
   .menu-image {
@@ -447,12 +451,11 @@ ul {
     grid-template-columns: 210px 210px;
     grid-template-rows: repeat(1, auto); 
     grid-gap: 1.5em;
-    max-width: 90%;
+    max-width: 100%;
   }
 
   .food-section {
     margin: 0 auto;
-    margin-left: 30px;
   }
 
   .google-map {
