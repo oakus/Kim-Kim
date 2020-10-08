@@ -438,6 +438,11 @@ ul {
     padding: 0;
   }
 
+  .food-divider {
+    width: 100%;
+    padding: 0 0;
+  }
+
   .food-grid {
     grid-template-columns: 210px 210px;
     grid-template-rows: repeat(1, auto); 
