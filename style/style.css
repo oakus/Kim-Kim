@@ -156,10 +156,13 @@ li {
 }
 
 .food-image {
-  max-width: 100%;
-  height: auto;
   padding-top: 7em;
   padding-left: 30px;
+}
+
+.about-image {
+  max-width: 540px;
+  height: auto;
 }
 
 /* MENUS */
@@ -423,10 +426,6 @@ ul {
     padding: 0
   }
 
-  .food-image {
-    width: 128px;
-  }
-
   #menu {
     font-size: 0.8em;
   }
@@ -439,7 +438,10 @@ ul {
     font-size: 3em;
   }
 
-  
+  .food-image {
+    padding: 0;
+  }
+
 
   .food-grid {
     grid-template-columns: 210px 210px;
