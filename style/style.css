@@ -166,14 +166,14 @@ li {
 
 #menu {
   margin-top: 3em;
-  padding-top: 5em;
+  padding-top: 4em;
   padding-bottom: 4em;
   background-color:  #e2cecf;
 }
 
 .menu-buttons {
   text-align: center;
-  margin: 25px;
+  margin: 20px;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -186,6 +186,13 @@ li {
   -webkit-appearance: none;
      -moz-appearance: none;
           appearance: none;
+}
+
+.menu-header {
+  font-family: 'shai_fontai';
+  text-align: center;
+  font-size: 4em;
+  margin: 0;
 }
 
 .btn {
@@ -244,30 +251,6 @@ li {
 .btnstyle:hover:after {
   width: 110%;
 }
-
-/* .lunch-btn {
-  width: 128px;
-  padding: 15px 32px 15px 32px;
-  border-radius 0;
-  background-color: #FFBC00;
-  text-align: center;
-  text-decoration: none;
-  color: white;
-  font-size: 16px;
-  margin: auto auto;
-}
-
-.dinner-btn {
-  width: 128px;
-  padding: 15px 32px 15px 32px;
-  border: none;
-  background-color: #FFBC00;
-  text-align: center;
-  text-decoration: none;
-  color: white;
-  font-size: 16px;
-  margin: auto auto;
-} */
 
 .menu-alert {
   text-align: center;
@@ -447,6 +430,10 @@ ul {
     max-width: 85px;
   }
 
+  .food-section h2 {
+    font-size: 3em;
+  }
+
   .food-image {
     padding: 0;
   }
@@ -463,4 +450,9 @@ ul {
     margin-left: 30px;
   }
 
+  .google-map {
+    width: 90%;
+    margin: 0 0;
+    padding: 0;
+  }
 }

@@ -16,7 +16,7 @@ hamburger.addEventListener('click', () => {
 
 navLinks.forEach(link => {
   link.addEventListener('click', () => {
-    navUl.classList.toggle('show')
+    navUl.classList.remove('show')
   })
 })
 
