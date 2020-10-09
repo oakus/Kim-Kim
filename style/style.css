@@ -464,6 +464,11 @@ ul {
     max-width: 95vw;
     margin: 0 auto;
   }
+  
+  .food-price-soup {
+    font-size: 0.8em;
+    flex-direction: column;
+  }
 
   .food-section h2 {
     font-size: 3em;
@@ -474,9 +479,10 @@ ul {
   }
 
   .food-grid {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: minmax(0, 1fr) 1fr;
     grid-template-rows: repeat(1, auto); 
-    grid-gap: 1em;
+    grid-gap: 0.75em;
+    margin: 0 auto;
   }
 
   .food-section {
