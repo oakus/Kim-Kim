@@ -34,8 +34,7 @@ body {
 }
 
 .nav.active {
-  background: #FC2200;
-  border:1px solid #bbb;
+  background: black;
   transition: all 0.5s;
 }
 
@@ -74,7 +73,6 @@ body {
 }
 
 .logo.active {  
-  background: white;
 }
 
 .hamburger {
@@ -401,8 +399,7 @@ ul {
 
   .nav {
     padding: 0;
-    background: #FC2200;
-    border:1px solid #bbb;
+    background: black;
     margin: 0;
   }
 
@@ -489,7 +486,8 @@ ul {
   }
 
   .food-divider {
-    padding: 0.5em 0.5em 0.5em 0.5em;
+    padding: 0;
+    padding-left: 0.5em;
   }
 
   .food-grid {
