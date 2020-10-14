@@ -1,11 +1,12 @@
 const lunchBtn = document.querySelector('.lunch-btn');
 const dinnerBtn = document.querySelector('.dinner-btn');
-const lunchMenu = document.querySelector('#lunch-menu')
-const dinnerMenu = document.querySelector('#dinner-menu')
-const nav = document.querySelector('.nav')
-const navLinks = document.querySelectorAll('.nav-link')
-const hamburger = document.getElementById("hamburger")
-const navUl = document.getElementById('nav-ul')
+const lunchMenu = document.querySelector('#lunch-menu');
+const dinnerMenu = document.querySelector('#dinner-menu');
+const nav = document.querySelector('.nav');
+const navLinks = document.querySelectorAll('.nav-link');
+const hamburger = document.getElementById("hamburger");
+const navUl = document.getElementById('nav-ul');
+const logo = document.querySelector('.logo');
 
 let lunchM = true;
 let dinnerM = false;
@@ -39,10 +40,12 @@ function runOnScroll() {
   let top = window.scrollY
   if (top >= 200) {
     nav.classList.add('active');
+    logo.classList.add('active');
     navLinks.forEach(link => link.classList.add('active'));
   } else {
     nav.classList.remove('active')
     navLinks.forEach(link => link.classList.remove('active'));
+    logo.classList.remove('active')
   }
 }
 

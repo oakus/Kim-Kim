@@ -63,6 +63,20 @@ body {
   flex-wrap: wrap;
 }
 
+.logo-li {
+  padding: 0;
+  padding-top: 5px;
+}
+
+.logo {
+  width: 8rem;
+  background: none;
+}
+
+.logo.active {  
+  background: white;
+}
+
 .hamburger {
   background: transparent;
   border: 0;
@@ -92,7 +106,7 @@ li {
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
-  width: 100vw;
+  max-width: 100vw;
   margin: 0 ;
   font-weight: 600;
 }
