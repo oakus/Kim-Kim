@@ -165,8 +165,6 @@ li {
   color:#3d3d3d;
 }
 
-
-
 .about-image {
   max-width: 540px;
   width: auto;
@@ -231,9 +229,9 @@ li {
 }
 
 .btnstyle {
-  border-color: #8e44ad;
+  border-color: #e74c3c;
   border-radius: 0;
-  color:#8e44ad;
+  color:#e74c3c;
   position: relative;
   overflow: hidden;
   z-index: 1;
@@ -340,9 +338,10 @@ h3 {
 /* FOOTER */
 
 #contact {
-  margin: 2em 0 2em 0;
+  padding: 2em 0 5em 0;
   font-family: 'Raleway', sans-serif;
-  padding-bottom: 3em;
+  background: black;
+  color: #FC2200;
 }
 
 .google-map {
@@ -364,7 +363,7 @@ h3 {
 }
 
 .social-wrapper a{
-  color: #3e4237;
+  color: #3e4237
   
 }
 
@@ -429,7 +428,7 @@ ul {
   .about-us {
     width: 90vw;
     flex-wrap: wrap;
-    padding: 5em 0 5em 0;
+    padding: 3em 0 3em 0;
     margin-left: 1em;
     margin-right: 1em;
   }
