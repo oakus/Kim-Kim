@@ -313,6 +313,7 @@ li {
   max-width: 128px;
   width: auto;
   height: auto;
+  max-height: 128px;
   object-fit: cover;
 }
 
