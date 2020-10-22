@@ -222,6 +222,7 @@ li {
 .btn:hover, .btn:focus {
   color: #fff;
   outline: 0;
+  background-color:#e74c3c;
   
 }
 
@@ -312,8 +313,6 @@ li {
 .menu-image {
   max-width: 128px;
   width: auto;
-  height: auto;
-  max-height: 128px;
   object-fit: cover;
 }
 
